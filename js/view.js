@@ -211,8 +211,10 @@ function redirect_next_sec(len){
     window.location.replace(requestUrl);
 }
 
-
-
+// Hint: fullscreen
+if (!window.screenTop && !window.screenY){
+    var toast_hint = new bootstrap.Toast(document.querySelector('.toast')).show();
+}
 
 // common function
 // API

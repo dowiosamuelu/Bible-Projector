@@ -25,13 +25,22 @@
           <p id="verse"></p>
         </div>
       </div>
-      <footer class="d-flex flex-wrap justify-content-between align-items-center my-0 fixed-bottom" id="footer_toolbar">
+
+      <footer class="d-flex flex-wrap justify-content-between align-items-center my-0 fixed-bottom p-1" id="footer_toolbar">
         <ul class="nav justify-content-center border-bottom mx-5">
           <li class="nav-item" id="prev_3"><a class="nav-link px-2 text-dark" style="cursor: pointer;">3</a></li>
           <li class="nav-item" id="prev_2"><a class="nav-link px-2 text-dark" style="cursor: pointer;">2</a></li>
           <li class="nav-item" id="prev_1"><a class="nav-link px-2 text-dark" style="cursor: pointer;">1</a></li>
           <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">⇜</a></li>
         </ul>
+        <div class="toast align-items-center" role="alert" aria-live="assertive" aria-atomic="true" id="toast">
+          <div class="d-flex">
+            <div class="toast-body">
+            <b>按下 <span class="badge rounded-pill bg-dark">F11</span> 進入全螢幕</b>
+            </div>
+            <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+          </div>
+        </div>
         <ul class="nav justify-content-center border-bottom mx-5">
           <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">⇝</a></li>
           <li class="nav-item" id="next_1"><a class="nav-link px-2 text-dark" style="cursor: pointer;">1</a></li>
